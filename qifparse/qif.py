@@ -243,7 +243,7 @@ class AmountSplit(BaseEntry):
         Field('amount', 'decimal', '$'),
         Field('percent', 'string', '%'),
         Field('address', 'multilinestring', 'A'),
-        Field('memo', 'string', 'M'),
+        Field('memo', 'string', 'E'),
     ]
     _sub_entry = True
 
